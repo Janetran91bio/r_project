@@ -15,4 +15,4 @@ about:
 
 With a background in Quality Assurance and Sales, I supported products launches into the 7-Eleven chain and partner systems in Japan. That hands-on experience showed me how small data insights can drive big business shifts.
 
-Now I’m pursuing a Master of IT (Information Systems) and strengthening my analytics toolkit in SQL, Power BI, Python, BigQuery and Google Analytics. I’m keen to contribute to roles that bridge business needs and data-driven strategy.
+Now I’m pursuing a Master of IT (Information Systems) and strengthening my analytics toolkit in SQL, Power BI, Python, BigQuery and R. I’m keen to contribute to roles that bridge business needs and data-driven strategy.
