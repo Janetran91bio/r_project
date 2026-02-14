@@ -1,15 +1,28 @@
 ---
-title: "blog"
+# title: "Trang's blog"
 listing:
+  # image,
   contents: posts
-  feed: true
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
-  sort-ui: false
-  filter-ui: false
+  sort-ui: true
+  filter-ui: true
+  fields: [image,
+            # date, 
+            title, 
+            # subtitle,
+            # description,
+            # filename,
+            # file-modified,
+            # author,
+            # reading-time, 
+            categories
+            # excerpt
+            ]
 page-layout: full
-title-block-banner: true
+title-block-banner: false
+editor_options: 
+  chunk_output_type: console
 ---
-
 

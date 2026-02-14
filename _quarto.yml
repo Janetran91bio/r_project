@@ -3,22 +3,38 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "blog"
+  title: "Trang's blog"
+  favicon: logor.png
   navbar:
+    logo: logor.png    
     right:
+      # - text: "Tài liệu tham khảo"
+      #   href: https://tuhocr.github.io/tailieuthamkhao/
+      # - text: "Phần mềm hữu ích"
+      #   href: https://tuhocr.github.io/phanmemhuuich/
       - about.qmd
+      # - icon: book
+      #   href: https://tuhocr.github.io/tailieuthamkhao/thuvien.html
+      # - icon: house-door-fill
+      #   href: https://www.tuhocr.com/
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/janetran91bio
 format:
   html:
+    toc: true
+    number-sections: true
     theme:
-      - cosmo
-      - brand
-    css: styles.css
+      light: [comos, light.scss]
+      dark: [solar, dark.scss]
+      # - minty
+      # - dark.scss
+    highlight-style: 
+      light: "dracula.theme"
+      dark: "kate.theme"
+bibliography: "D:/github/vedothi/thuvien.bib"
+
+ 
+
 
 
 
